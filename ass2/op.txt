@@ -1,0 +1,3 @@
+Comparison result: first number is greater than the second number
+Addition result: 0,00100
+Subtraction result: -100,00000,00000,00000,00100

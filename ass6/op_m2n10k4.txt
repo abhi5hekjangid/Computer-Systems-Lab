@@ -1,0 +1,19 @@
+m = 2
+n = 10
+k = 4
+Bloom filter is 
+1 1 0 1 1 1 1 1 1 0 
+
+0, false positive yes, collusion cases, <10,2>, <10,1>
+1, false positive yes, collusion cases, <10,1>, <10,2>
+2, false positive yes, collusion cases, <11,1>, <11,2>
+3, false positive yes, collusion cases, <7,2>, <7,1>
+5, false positive no.
+6, false positive yes, collusion cases, <4,2>, <4,1>
+8, false positive yes, collusion cases, <11,2>, <11,1>
+9, false positive yes, collusion cases, <10,2>, <10,1>
+12, false positive yes, collusion cases, <7,2>, <7,1>
+13, false positive yes, collusion cases, <4,1>, <4,2>
+14, false positive no.
+15, false positive yes, collusion cases, <4,2>, <4,1>
+Fraction of false positives , p = 0.833333

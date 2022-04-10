@@ -1,0 +1,1 @@
+outdata.open("op.txt",ios::out);
